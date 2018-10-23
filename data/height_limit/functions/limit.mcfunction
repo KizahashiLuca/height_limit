@@ -8,7 +8,8 @@
 ## Version:
 ##   0.0.3
 ## Description:
-##   run function on every tick.
+##   action of exceeding limit.
 ###############################
 
-execute as @e[type=minecraft:player] run function height_limit:constraint
+execute at @e[type=minecraft:area_effect_cloud, name=tmp_cloud] run teleport @s ~ ~ ~
+scoreboard players add @s Penalty 1

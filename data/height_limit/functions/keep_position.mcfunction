@@ -8,7 +8,9 @@
 ## Version:
 ##   0.0.3
 ## Description:
-##   run function on every tick.
+##   if exceeding limit,
+##    reset position.
 ###############################
 
-execute as @e[type=minecraft:player] run function height_limit:constraint
+kill @e[type=minecraft:area_effect_cloud, name=tmp_cloud]
+execute at @s run summon minecraft:area_effect_cloud ~ ~ ~ {CustomName:"\"tmp_cloud\"",Radius:0f,Duration:32768}

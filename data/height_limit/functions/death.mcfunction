@@ -8,7 +8,7 @@
 ## Version:
 ##   0.0.3
 ## Description:
-##   run function on every tick.
+##   after death, trigger on.
 ###############################
 
-execute as @e[type=minecraft:player] run function height_limit:constraint
+scoreboard players set @s WhileBoring 1

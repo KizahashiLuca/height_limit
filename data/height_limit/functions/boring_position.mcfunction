@@ -8,7 +8,8 @@
 ## Version:
 ##   0.0.3
 ## Description:
-##   run function on every tick.
+##   while boring, detect
+##    spawn point.
 ###############################
 
-execute as @e[type=minecraft:player] run function height_limit:constraint
+execute at @e[type=minecraft:area_effect_cloud, name=tmp_cloud] run teleport @e[type=minecraft:area_effect_cloud, name=tmp_cloud] ~ ~-1 ~

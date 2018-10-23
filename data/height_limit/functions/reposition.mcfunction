@@ -8,7 +8,7 @@
 ## Version:
 ##   0.0.3
 ## Description:
-##   run function on every tick.
+##   reset pastposition.
 ###############################
 
-execute as @e[type=minecraft:player] run function height_limit:constraint
+scoreboard players operation @s pastposition.Y = @s position.Y
