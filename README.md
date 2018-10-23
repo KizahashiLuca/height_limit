@@ -12,4 +12,4 @@ Aim to stack all kinds of cube blocks on the tower.
    - After death, when players drill just below, although players can not move except their spawn point, the height limit is temporarily ineffective.
    - To count penalty that players exceed the height limit.
    
-[1]:https://youtu.be/KGFBpZW6ZHQ
+[1]:https://youtu.be/laLfbJ0y8-s
