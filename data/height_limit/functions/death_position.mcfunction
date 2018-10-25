@@ -4,9 +4,9 @@
 ## Author:
 ##   KizahashiLuca
 ## Date: 
-##   Oct 24, 2018
+##   Oct 25, 2018
 ## Version:
-##   0.0.3
+##   0.0.4
 ## Description:
 ##   after death,
 ##    detect spawn point.
@@ -20,9 +20,9 @@ scoreboard players operation @s upperbound.X = @s position.X
 scoreboard players operation @s upperbound.Z = @s position.Z
 scoreboard players operation @s lowerbound.X = @s position.X
 scoreboard players operation @s lowerbound.Z = @s position.Z
-execute if score @s position.X matches 0.. run scoreboard players add @s upperbound.X 1
-execute if score @s position.Z matches 0.. run scoreboard players add @s upperbound.Z 1
-execute if score @s position.X matches ..-0 run scoreboard players remove @s lowerbound.X 1
-execute if score @s position.Z matches ..-0 run scoreboard players remove @s lowerbound.Z 1
+execute if entity @s[scores={position.X=0..}] run scoreboard players add @s upperbound.X 1
+execute if entity @s[scores={position.Z=0..}] run scoreboard players add @s upperbound.Z 1
+execute if entity @s[scores={position.X=..-1}] run scoreboard players add @s upperbound.X 1
+execute if entity @s[scores={position.Z=..-1}] run scoreboard players add @s upperbound.Z 1
 
 scoreboard players set @s Death 0

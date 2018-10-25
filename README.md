@@ -11,5 +11,8 @@ Aim to stack all kinds of cube blocks on the tower.
    - If players exceed the height limit, teleported to past position.
    - After death, when players drill just below, although players can not move except their spawn point, the height limit is temporarily ineffective.
    - To count penalty that players exceed the height limit.
+ - v0.0.4 - fixed below
+   - When players move around during drilling just below, teleported in below blocks.
+   - Comparation of players position and triggers put in target selector.
    
 [1]:https://youtu.be/KGFBpZW6ZHQ

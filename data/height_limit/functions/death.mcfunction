@@ -4,9 +4,9 @@
 ## Author:
 ##   KizahashiLuca
 ## Date: 
-##   Oct 24, 2018
+##   Oct 25, 2018
 ## Version:
-##   0.0.3
+##   0.0.4
 ## Description:
 ##   after death, trigger on.
 ###############################

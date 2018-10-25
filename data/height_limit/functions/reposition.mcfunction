@@ -4,11 +4,11 @@
 ## Author:
 ##   KizahashiLuca
 ## Date: 
-##   Oct 24, 2018
+##   Oct 25, 2018
 ## Version:
-##   0.0.3
+##   0.0.4
 ## Description:
 ##   reset pastposition.
 ###############################
 
-scoreboard players operation @s pastposition.Y = @s position.Y
+scoreboard players operation @s pastposition.Y = @s Height
