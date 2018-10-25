@@ -15,4 +15,4 @@ Aim to stack all kinds of cube blocks on the tower.
    - When players move around during drilling just below, teleported in below blocks.
    - Comparation of players position and triggers put in target selector.
    
-[1]:https://youtu.be/KGFBpZW6ZHQ
+[1]:https://youtu.be/laLfbJ0y8-s
