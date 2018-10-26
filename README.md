@@ -14,5 +14,6 @@ Aim to stack all kinds of cube blocks on the tower.
  - v0.0.4 - fixed below
    - When players move around during drilling just below, teleported in below blocks.
    - Comparation of players position and triggers put in target selector.
+ - v0.0.5 - added getting tower position
    
 [1]:https://youtu.be/laLfbJ0y8-s
